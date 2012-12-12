@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	padding: 0;
+	font: 100%/2 arial, sans-serif;
+	color: #eee;
+	background: #222;
+}
+
+.waypoint {
+	height: 50em;
+	border: 1px solid #ccc;
+	margin: 1em;
+	padding: 1em;
+	background-position: center top;
+}
+
+.wp-1 { background-image: url("images/1.jpg"); }
+.wp-2 { background-image: url("images/2.jpg"); }
+.wp-3 { background-image: url("images/3.jpg"); }
+.wp-4 { background-image: url("images/4.jpg"); }
+.wp-5 { background-image: url("images/5.jpg"); }
+
+.mover {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 0.5em;
+	height: 0.5em;
+	border-radius: 0.25em;
+	background: #000;
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.6) inset, 0px -1px 2px rgba(255,255,255,0.8) inset;
+	z-index: 1;
+}
+
+.centre {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 3em;
+	height: 3em;
+	border-radius: 1.5em;
+	background: #ff0;
+	box-shadow: 0 0 50px #ff0;
+	margin: -1.5em 0 0 -1.5em;
+	z-index: 2;
+}
